@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #004E98;
+}
+
+nav {
+  padding: 0 40px;
+}
+
+.nav-bar {
+  display: inline-block;
+  float: right;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin: 5px;
+  line-height: 80px;
+}
+
+.nav-bar li a {
+  padding: 15px 25px;
+  font-size: 20px;
+  color: #EBEBEB;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.nav-bar li a:hover {
+  background-color: #3A6EA5;
+}
+
+
+
+
+footer {
+  margin-top: 10px;
+  width: 100%;
+  padding: 50px;
+  background-color: #004E98;
+  color: #EBEBEB;
+  display: flex;
+  align-items: center;
+}
+
+footer h5 {
+  display: inline-block;
+  float: left;
+  margin: 20px;
+  font-size: 40px;
+}
+
+.col {
+  margin: 0 auto;
+  padding: 15px 20px;
+  text-align: center;
+  border-left: 1px solid #598DBC;
+  border-right: 1px solid #598DBC;
+}
+
+.col h4 {
+  font-size: 25px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #79ADDC;
+  margin-bottom: 5px;
+}
+
+.authors {
+  display: inline-block;
+  list-style: none;
+}
+
+.authors li {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.signup-form {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+
+/*REPORTS*/
+#myUL {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#myUL li{
+  padding: 10px 6px 10px 30px;
+  background: #004E98;
+  font-size: 18px;
+  color: #C0C0C0;
+}
+
+#myUL li:nth-child(even){
+  background: #3A6EA5;
+}
+
+#myUL li: hover {
+  background: #ffe452
+}
+
+.close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 14px;
+}
+
+.close: hover{
+  background-color: #c9b130
+}
+
+.header{
+  background-color: #ffe452
+  padding: 25px 35px;
+  margin: 5px 0;
+  color: white;
+  text-align: center;
+}
+
+.header:after;{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#myDIV input{
+  margin: 0;
+  width: 85%;
+  padding: 10px;
+  float: left;
+  font-size: 18px;
+  height: 50px;
+}
+
+.addBtn {
+  float: left;
+  width: 15%;
+  height: 50px;
+  font-size: 24px;
+  background-color: #004E98;
+  border: none;
+}
+
+.addBtn:hover {
+  background-color: #c9b130;
+  cursor: pointer;
+}
